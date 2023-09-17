@@ -1,6 +1,6 @@
 html {
   font-size: 24px;
-  background-color: #8aaae5;
+  background-color: #0a0a0a;
 }
 body {
   font-family: "Ubuntu", sans-serif;
@@ -15,7 +15,7 @@ h1 {
   color: #ec4da2;
 }
 strong {
-  color: #ffc8e5;
+  color: #ffb6dd;
 }
 h2 {
   font-size: 1.2rem;
@@ -26,12 +26,12 @@ h2 {
 h3 {
   font-size: 0.7rem;
   margin-bottom: 0.2em;
-  color: #ffc8e5;
+  color: #ffb6dd;
   font-weight: 400;
 }
 p {
   margin-top: 0;
-  color: #ffebfa;
+  color: #ffdff7;
 }
 .styledFont {
   font-family: "Ubuntu";
