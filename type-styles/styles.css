@@ -12,26 +12,26 @@ section {
 h1 {
   font-size: 1.75rem;
   margin-bottom: 0.4em;
-  color: #104cbb;
+  color: #ec4da2;
 }
 strong {
-  color: #d8e7ff;
+  color: #ffc8e5;
 }
 h2 {
   font-size: 1.2rem;
   margin-bottom: 0.4em;
-  color: #5587e3;
+  color: #ff9ad0;
   text-transform: uppercase;
 }
 h3 {
   font-size: 0.7rem;
   margin-bottom: 0.2em;
-  color: #d8e7ff;
+  color: #ffc8e5;
   font-weight: 400;
 }
 p {
   margin-top: 0;
-  color: #ffffff;
+  color: #ffebfa;
 }
 .styledFont {
   font-family: "Ubuntu";
