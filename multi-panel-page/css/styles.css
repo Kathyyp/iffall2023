@@ -1,0 +1,113 @@
+html {
+  font-family: "Archivo Narrow", sans-serif;
+}
+header {
+  background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9zdGF0aWMvaW1hZ2VzL3dlYnNpdGUvMjAyMi0wNS92ODgwLXRlY2hpLTA4LWdfMS5qcGc.jpg?s=RjD8N9r5Ox4qbNIMm9u1JtQn7a3AMYD3ak5kiCy5m-o");
+  text-align: center;
+}
+.section1 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-05xTXHzMJppZJFOTJt-9aksIDLPgBGcG-A&usqp=CAU");
+}
+.section2 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd0QFanuMvnQopDWS4j6J73qiv9U-n7PF23w&usqp=CAU");
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+h1 {
+  font-size: 80px;
+}
+h2 {
+  font-size: 30px;
+  line-height: 1.2;
+}
+h3 {
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 15px;
+}
+p {
+  padding-top: 16px;
+  font-size: 18px;
+  line-height: 1.4;
+}
+.column_container {
+  width: 960px;
+  margin: auto;
+}
+header .column_container {
+  padding-top: 152px;
+  padding-bottom: 185px;
+}
+section .column_container {
+  padding-top: 40px;
+  padding-bottom: 55px;
+}
+.section1_img {
+  float: right;
+  margin: 1px 0 35px 45px;
+  width: 400px;
+  height: 300px;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+.grid_display {
+  margin-top: -6px;
+  width: 50%;
+  margin-bottom: 24px;
+}
+/* .grid_display {
+  margin-top: 10px;
+} */
+.grid_display img {
+  height: 150px;
+  width: 200px;
+  object-fit: cover;
+  float: left;
+  margin-right: 12px;
+  margin-top: 5px;
+}
+h4 {
+  margin: 6px;
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+.grid_display p {
+  width: 430px;
+  margin-left: 16px;
+  /* margin-top: 8px; */
+  font-size: 18px;
+  padding-top: 0px;
+}
+.section3 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH4PzLTVLLD6Va3c_S_296eeM_jd8b71mLiw&usqp=CAU");
+}
+.section2 .column_container {
+  padding-top: 40px;
+  padding-bottom: 41px;
+}
+.section3_text {
+  text-align: center;
+  font-size: 26px;
+  width: 703px;
+  margin: auto;
+  margin-top: 1px;
+  line-height: 36px;
+}
+.section3 .column_container {
+  padding-top: 40px;
+  padding-bottom: 101px;
+}
+.copyright {
+  background-color: white;
+  margin-top: 41px;
+  font-size: 18px;
+}
