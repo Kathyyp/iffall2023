@@ -1,75 +1,76 @@
+/* Common styles for all screen sizes */
 html {
   font-family: "Archivo Narrow", sans-serif;
 }
+
+/* Header styles */
 header {
   background-image: url("https://cdn.dribbble.com/users/1608570/screenshots/3523915/media/bee8bb08a10a562c24e099e0ac2bdf91.jpg?resize=400x300&vertical=center");
   text-align: center;
 }
-header h1 {
-  background-color: rgba(255, 255, 255, 0.469);
-  border-radius: 10px;
-}
+
+header h1,
 header p {
   background-color: rgba(255, 255, 255, 0.469);
   border-radius: 10px;
-  padding: 10px;
 }
+
+/* Section 1 and 2 styles */
 .section1 {
   background-color: rgb(232 229 194);
-  /* rgb(244 192 79) */
-  /* rgb(255 218 96) */
 }
 .section2 {
   background-color: rgb(255 218 96);
 }
+
 h1,
 h2,
 h3,
 p {
   margin: 0;
 }
+
 h1 {
   font-size: 80px;
 }
+
 h2 {
   font-size: 30px;
   line-height: 1.2;
 }
+
 h3 {
   text-align: center;
   font-size: 40px;
   padding-bottom: 15px;
 }
+
 p {
   padding-top: 16px;
   font-size: 18px;
   line-height: 1.4;
 }
+
 .column_container {
   width: 960px;
   margin: auto;
 }
-header .column_container {
+
+/* Header and section container padding */
+header .column_container,
+.section .column_container {
   padding-top: 152px;
   padding-bottom: 185px;
 }
-section .column_container {
-  padding-top: 40px;
-  padding-bottom: 55px;
-}
-.section1_img {
-  float: right;
-  margin: 1px 0 35px 45px;
-  width: 400px;
-  height: 300px;
-}
+
+/* Equipment container styles */
 .equipments-container {
   display: flex;
-  margin-top: 2%;
-  margin-left: 6%;
-  margin-right: 6%;
-  margin-bottom: 2%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 2%;
 }
+
 .equipments {
   flex: 1;
   padding: 20px;
@@ -77,9 +78,12 @@ section .column_container {
   background-color: rgb(244 192 79);
   margin: 10px;
 }
+
 .equipments h2 {
   text-align: left;
 }
+
+/* Grid styles */
 .grid {
   display: flex;
   flex-wrap: wrap;
@@ -87,11 +91,13 @@ section .column_container {
   padding-top: 20px;
   padding-bottom: 0px;
 }
+
 .grid_display {
   margin-top: -6px;
   width: 50%;
   margin-bottom: 24px;
 }
+
 .grid_display img {
   height: 150px;
   width: 200px;
@@ -100,22 +106,26 @@ section .column_container {
   margin-right: 12px;
   margin-top: 5px;
 }
+
 h4 {
   margin: 6px;
   margin-bottom: 8px;
   font-size: 20px;
 }
+
 .grid_display p {
   width: 430px;
   margin-left: 16px;
-  /* margin-top: 8px; */
   font-size: 18px;
-  padding-top: 0px;
 }
+
+/* Section 2 container padding */
 .section2 .column_container {
   padding-top: 40px;
-  padding-bottom: 41px;
+  padding-bottom: 40px;
 }
+
+/* Instruction styles */
 .instruction-grid {
   display: grid;
   grid-template-columns: 1fr; /* Two columns, left and right */
@@ -130,7 +140,6 @@ h4 {
   background-color: rgb(232 229 194);
   border-radius: 10px;
   padding: 15px;
-  /* display: block; */
   text-align: center;
   margin: 0 auto;
 }
@@ -141,16 +150,70 @@ h4 {
 
 .instruction-image img {
   max-width: 50%;
-  display: block; /* Center the image within its container */
+  display: block;
   margin: 0 auto;
 }
 
+/* Footer styles */
 footer {
   background-color: rgb(204 230 177);
 }
+
 .copyright {
   text-align: center;
-  /* margin: 1%; */
   padding: 2%;
   font-size: 18px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  /* Apply responsive styles here */
+  .column_container {
+    width: 90%;
+  }
+
+  .section .column_container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .equipments-container {
+    flex-direction: column;
+  }
+
+  .equipments {
+    flex: 1;
+    margin: 10px 0;
+  }
+
+  .grid_display {
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .grid_display img {
+    margin-right: 0;
+    margin-top: 0;
+    float: none;
+  }
+
+  .grid_display p {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
 }
