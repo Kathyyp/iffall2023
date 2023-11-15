@@ -1,0 +1,398 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+body {
+  max-width: 80%;
+  margin-left: 5%;
+}
+.macbook-mock-a {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.macbook-mock-a .div {
+  background-color: #ffffff;
+  width: 1280px;
+  height: 6072px;
+  position: relative;
+}
+
+.macbook-mock-a .frame {
+  height: 6002px;
+  top: 70px;
+  overflow-y: scroll;
+  position: absolute;
+  width: 1280px;
+  left: 0;
+  background-color: #535d51;
+}
+
+.macbook-mock-a .group {
+  position: absolute;
+  width: 721px;
+  height: 2160px;
+  top: 3400px;
+  left: 20%;
+}
+
+.macbook-mock-a .image {
+  width: 500px;
+  top: 178px;
+  position: absolute;
+  left: -100px;
+}
+
+.macbook-mock-a .img {
+  width: 560px;
+  top: 500px;
+  object-fit: cover;
+  position: absolute;
+  left: 350px;
+}
+
+.macbook-mock-a .image-2 {
+  width: 719px;
+  height: 500px;
+  top: 800px;
+  object-fit: cover;
+  position: absolute;
+  left: -50px;
+}
+.macbook-mock-a .image-5 {
+  width: 500px;
+  top: 1200px;
+  object-fit: cover;
+  position: absolute;
+  left: 400px;
+}
+
+.macbook-mock-a .text-wrapper {
+  position: absolute;
+  height: 120px;
+  top: 0;
+  left: 241px;
+  font-family: "Anton-Regular", Helvetica;
+  font-weight: 400;
+  color: #d0ccc1;
+  font-size: 80px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.macbook-mock-a .group-2 {
+  position: absolute;
+  width: 695px;
+  height: 952px;
+  top: 2500px;
+  left: 18%;
+}
+
+.macbook-mock-a .image-3 {
+  width: 100%;
+  /* height: 832px; */
+  top: 200px;
+  object-fit: cover;
+  position: absolute;
+  left: 35px;
+}
+
+.macbook-mock-a .text-wrapper-2 {
+  position: absolute;
+  height: 120px;
+  top: 0;
+  left: 70px;
+  font-family: "Anton-Regular", Helvetica;
+  font-weight: 400;
+  color: #d0ccc1;
+  font-size: 80px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.macbook-mock-a .line {
+  top: 313px;
+  position: absolute;
+  width: 1280px;
+  height: 1px;
+  left: 0;
+}
+
+.macbook-mock-a .line-2 {
+  top: 97px;
+  position: absolute;
+  width: 1280px;
+  height: 1px;
+  left: 0;
+}
+
+.macbook-mock-a .group-3 {
+  position: absolute;
+  width: 903px;
+  height: 362px;
+  top: 1957px;
+  left: 249px;
+}
+
+.macbook-mock-a .rectangle {
+  position: absolute;
+  width: 250px;
+  height: 362px;
+  top: 0;
+  left: 0;
+  background-color: #d0ccc1;
+  border-radius: 152.5px;
+}
+
+.macbook-mock-a .text-wrapper-3 {
+  position: absolute;
+  width: 464px;
+  height: 105px;
+  top: 25px;
+  left: 435px;
+  font-family: "Anton-Regular", Helvetica;
+  font-weight: 400;
+  color: #d0ccc1;
+  font-size: 70px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.macbook-mock-a .character-intro-a {
+  position: absolute;
+  width: 248px;
+  height: 145px;
+  top: 181px;
+  left: 435px;
+  font-family: "Space Grotesk-Regular", serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.macbook-mock-a .group-4 {
+  position: absolute;
+  width: 903px;
+  height: 362px;
+  top: 1550px;
+  left: 249px;
+}
+
+.macbook-mock-a .group-5 {
+  position: absolute;
+  width: 903px;
+  height: 362px;
+  top: 1143px;
+  left: 249px;
+}
+
+.macbook-mock-a .group-6 {
+  position: absolute;
+  width: 861px;
+  height: 534px;
+  top: 417px;
+  left: 230px;
+}
+
+.macbook-mock-a .MAIN-TEXT-ABOUT-THE {
+  position: absolute;
+  width: 248px;
+  height: 145px;
+  top: 400px;
+  left: 516px;
+  font-family: "Space Grotesk-Regular", serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.macbook-mock-a .text-wrapper-4 {
+  width: 339px;
+  height: 180px;
+  top: 50px;
+  left: 516px;
+  font-size: 80px;
+  line-height: 90px;
+  position: absolute;
+  font-family: "Anton-Regular", Helvetica;
+  font-weight: 400;
+  color: #d0ccc1;
+  letter-spacing: 0;
+}
+
+.macbook-mock-a .image-4 {
+  width: 396px;
+  height: 534px;
+  top: 0;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+}
+
+.macbook-mock-a .overlap-group {
+  position: absolute;
+  width: 158px;
+  height: 50px;
+  top: 330px;
+  left: 516px;
+  background-color: #d0ccc1;
+  font-family: "Space Grotesk-Regular", Helvetica;
+  font-weight: 400;
+  color: #1c1815;
+  font-size: 18px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.macbook-mock-a .overlap-group:hover {
+  background-color: #b8b4a8;
+}
+
+.macbook-mock-a .line-3 {
+  top: 1038px;
+  position: absolute;
+  width: 1280px;
+  height: 1px;
+  left: 0;
+}
+
+.macbook-mock-a .overlap {
+  position: absolute;
+  width: 1280px;
+  height: 1px;
+  top: 2427px;
+  left: 0;
+  background-image: url(./img/line-4.svg);
+  background-size: 100% 100%;
+}
+
+.macbook-mock-a .line-4 {
+  top: 0;
+  position: absolute;
+  width: 1280px;
+  height: 1px;
+  left: 0;
+}
+
+.macbook-mock-a .line-5 {
+  top: 3632px;
+  position: absolute;
+  width: 1280px;
+  height: 1px;
+  left: 0;
+}
+
+.macbook-mock-a .text-wrapper-6 {
+  width: 1280px;
+  height: 190px;
+  top: 50px;
+  left: 0;
+  font-size: 150px;
+  text-align: center;
+  line-height: normal;
+  text-decoration: line-through;
+  position: absolute;
+  font-family: "Anton-Regular", Helvetica;
+  font-weight: 400;
+  color: #d0ccc1;
+  letter-spacing: 0;
+}
+
+.macbook-mock-a .frame-2 {
+  height: 70px;
+  top: 0;
+  position: absolute;
+  width: 1280px;
+  left: 0;
+  background-color: #535d51;
+}
+
+.macbook-mock-a .text-wrapper-7 {
+  position: absolute;
+  height: 75px;
+  top: -7px;
+  left: 47px;
+  font-family: "Anton-Regular", Helvetica;
+  font-weight: 400;
+  color: #d0ccc1;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.macbook-mock-a .whalestoe-letters {
+  position: absolute;
+  width: 213px;
+  height: 69px;
+  top: -1px;
+  left: 453px;
+  font-family: "Anton-Regular", Helvetica;
+  font-weight: 400;
+  color: #d0ccc1;
+  font-size: 23px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.macbook-mock-a .format {
+  position: absolute;
+  width: 213px;
+  height: 69px;
+  top: 0;
+  left: 758px;
+  font-family: "Anton-Regular", Helvetica;
+  font-weight: 400;
+  color: #d0ccc1;
+  font-size: 23px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.macbook-mock-a .navidson-record {
+  position: absolute;
+  width: 213px;
+  height: 69px;
+  top: -1px;
+  left: 148px;
+  font-family: "Anton-Regular", Helvetica;
+  font-weight: 400;
+  color: #d0ccc1;
+  font-size: 23px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.macbook-mock-a .legacy {
+  position: absolute;
+  width: 213px;
+  height: 69px;
+  top: 0;
+  left: 987px;
+  font-family: "Anton-Regular", Helvetica;
+  font-weight: 400;
+  color: #d0ccc1;
+  font-size: 23px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
