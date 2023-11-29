@@ -407,3 +407,17 @@ body {
   letter-spacing: 0;
   line-height: normal;
 }
+
+.macbook-mock-a .lettermeaning {
+  position: absolute;
+  width: 400px;
+  /* height: 362px; */
+  top: 150px;
+  left: 500px;
+  font-family: "Space Grotesk-Regular", serif;
+  font-weight: 400;
+  color: #d0ccc1;
+  font-size: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+}
