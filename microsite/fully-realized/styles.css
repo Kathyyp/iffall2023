@@ -5,11 +5,13 @@ body {
 body {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 body {
   max-width: 80%;
-  margin-left: 5%;
+  /* margin-left: 10%;
+  margin-right: 10%;
+  position: absolute; */
 }
 .macbook-mock-a {
   background-color: #d0ccc1;
@@ -28,7 +30,9 @@ body {
 
 .macbook-mock-a .frame {
   height: 6002px;
-  top: 70px;
+  /* padding-top: 90px; */
+  /* top: 70px; */
+  margin-top: 70px;
   overflow-y: scroll;
   position: absolute;
   width: 1280px;
@@ -41,7 +45,10 @@ body {
   width: 721px;
   height: 2160px;
   top: 3400px;
-  left: 20%;
+  /* margin-left: 20%; */
+  /* top: 50%; */
+  left: 25%;
+  /* transform: translate(-50%, -50%); */
 }
 
 .macbook-mock-a .image {
@@ -80,10 +87,11 @@ body {
   height: 120px;
   top: 0;
   left: 241px;
+  /* margin-left: 380px; */
   font-family: "Anton-Regular", Helvetica;
   font-weight: 400;
   color: #d0ccc1;
-  font-size: 80px;
+  font-size: 60px;
   text-align: center;
   letter-spacing: 0;
   line-height: normal;
@@ -114,7 +122,7 @@ body {
   font-family: "Anton-Regular", Helvetica;
   font-weight: 400;
   color: #d0ccc1;
-  font-size: 80px;
+  font-size: 60px;
   text-align: center;
   letter-spacing: 0;
   line-height: normal;
@@ -147,7 +155,7 @@ body {
 .macbook-mock-a .rectangle {
   position: absolute;
   width: 250px;
-  height: 362px;
+  height: 330px;
   top: 0;
   left: 0;
   background-color: #d0ccc1;
@@ -163,7 +171,7 @@ body {
   font-family: "Anton-Regular", Helvetica;
   font-weight: 400;
   color: #d0ccc1;
-  font-size: 70px;
+  font-size: 40px;
   letter-spacing: 0;
   line-height: normal;
 }
@@ -315,12 +323,15 @@ body {
 }
 
 .macbook-mock-a .frame-2 {
-  height: 70px;
+  height: 0px;
+  padding-top: 70px;
   top: 0;
-  position: absolute;
+  position: fixed;
   width: 1280px;
   left: 0;
   background-color: #535d51;
+  z-index: 1000;
+  border-bottom: 1px solid #d0ccc1;
 }
 
 .macbook-mock-a .text-wrapper-7 {
