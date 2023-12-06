@@ -1,0 +1,325 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: "Anton", sans-serif;
+  display: block;
+}
+body {
+  background-color: #535d51;
+  font-family: "Anton", sans-serif;
+  text-align: center;
+  color: #d0ccc1;
+}
+.header {
+  font-family: "Anton", sans-serif;
+  display: block;
+  color: rgba(12, 21, 39, 0.1);
+}
+
+.nav {
+  padding-left: 27%;
+  list-style: none;
+  background-color: #41493f;
+  display: flex;
+
+  color: #d0ccc1;
+  font-size: 16px;
+  flex-wrap: wrap;
+}
+
+.nav li a {
+  color: #d0ccc1;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  padding: 20px 0px;
+}
+
+.nav li {
+  width: 150px;
+  text-align: center;
+}
+
+.nav li:hover,
+.nav li.selected {
+  background-color: #212521;
+}
+
+.cover {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding-top: 2%;
+}
+
+.title {
+  /* width: 339px;
+  height: 180px;
+  top: 50px;
+  left: 516px; */
+  /* max-width: 50%; */
+  font-size: 80px;
+  line-height: 90px;
+  font-family: "Anton", sans-serif;
+  font-weight: 600;
+  color: #d0ccc1;
+  /* letter-spacing: 0; */
+  /* margin: center; */
+  line-height: 1;
+  margin: 0 27%;
+  text-decoration: line-through;
+}
+.book-intro {
+  width: 90%;
+  text-align: left;
+  margin: 50px auto;
+  word-wrap: break-word;
+}
+
+.book-intro p {
+  font-size: 15px;
+  margin-bottom: 20px;
+  font-weight: 100;
+  font-style: normal;
+
+  word-wrap: break-word;
+
+  margin: 0 20%;
+
+  font-size: 15px;
+  margin-top: 30px;
+  color: #d0ccc1;
+}
+.intro-text {
+  font-family: "Archivo Narrow", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  margin: 0 27%;
+  font-size: 15px;
+  margin-top: 30px;
+  color: #d0ccc1;
+  text-align: left;
+}
+
+footer {
+  background-color: #010101;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #d0ccc1;
+  font-size: 12px;
+}
+
+footer .sources {
+  padding-right: 32px;
+  text-align: right;
+}
+
+footer .sources a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #d0ccc1;
+}
+
+footer .creators {
+  padding: 24px 32px;
+  border-left: 2px solid #a0b4a0;
+  text-align: left;
+}
+
+.character-intro {
+  width: 60%;
+  margin: 0 20%;
+  font-family: "Archivo Narrow", sans-serif;
+}
+
+.character-intro h1 {
+  font-size: 50px;
+  font-weight: 600;
+  color: #d0ccc1;
+  line-height: 1;
+  padding-top: 5%;
+  margin: 0 27%;
+  font-family: "Anton", sans-serif;
+  text-decoration: line-through;
+}
+
+.letter-intro h1,
+.plan-intro h1 {
+  font-size: 50px;
+  font-weight: 600;
+  color: #d0ccc1;
+  line-height: 1;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin: 0 27%;
+  font-family: "Anton", sans-serif;
+  text-decoration: line-through;
+}
+
+.character-intro h2 {
+  font-size: 25px;
+  font-family: "Anton", sans-serif;
+}
+
+.character-intro ul li {
+  display: flex;
+  justify-content: center;
+  color: #d0ccc1;
+  margin-top: 80px;
+  align-items: center;
+}
+
+.character-intro ul li img {
+  width: 400px;
+  height: auto;
+  margin-right: 40px;
+  flex-shrink: 0;
+}
+
+.character-intro ul li p {
+  padding: 20px;
+  text-align: left;
+}
+
+.letters_intro {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.letters img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease-in-out;
+}
+
+.letter_title {
+  font-family: "Anton", sans-serif;
+  font-size: 25px;
+  font-weight: 1000;
+  color: #535d51;
+  margin-bottom: 30px;
+  width: 230px;
+}
+
+.letters {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 500px;
+  background-color: #b1ada4;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-shadow: 10px 10px 5px rgb(66, 74, 64);
+  margin-bottom: 10%;
+}
+
+.letters:hover img {
+  transform: scale(1.5);
+}
+
+.letter-intro {
+  width: 60%;
+  margin: 0 20%;
+  font-family: "Anton", sans-serif;
+}
+
+.letter-intro ul li {
+  display: flex;
+  justify-content: center;
+  color: #d0ccc1;
+  margin-top: 80px;
+  align-items: center;
+}
+
+.zoom-container {
+  overflow: hidden;
+  /* width: 80%; */
+  /* height: 100%; */
+  padding-bottom: 5%;
+  position: relative;
+}
+
+.zoom-container img {
+  width: 70%;
+  height: 100%;
+  /* align-items: center; */
+  transition: transform 0.3s ease-in-out;
+}
+
+.zoom-container:hover img {
+  transform: scale(1.5);
+}
+
+@media (max-width: 750px) {
+  html {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+  }
+
+  .nav {
+    padding-left: 0px !important;
+  }
+
+  .nav li a {
+    padding: 20px 0px;
+  }
+
+  .nav li {
+    width: 100px;
+    text-align: center;
+  }
+
+  .book-intro {
+    width: 90%;
+    text-align: left;
+    margin: 40px auto;
+  }
+  .intro-text {
+    font-family: "Century Gothic", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    margin: 0 5%;
+    font-size: 15px;
+    margin-top: 30px;
+    color: #d0ccc1;
+  }
+
+  .character-intro {
+    width: 90%;
+    margin: 0 5%;
+  }
+
+  .character-intro ul li {
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+  }
+
+  .character-intro ul li img {
+    width: 300px;
+    margin-right: 0px;
+  }
+
+  .character-intro ul li p {
+    padding: 0%;
+    text-align: left;
+  }
+  .letters_intro {
+    flex-flow: column nowrap;
+  }
+
+  .letters {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-self: center;
+  }
+}
