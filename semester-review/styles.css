@@ -1,0 +1,94 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+a {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+h3,
+p {
+  color: #e880ac;
+}
+
+/* Set the background color and font for the body */
+body {
+  background-color: #f8f0f0; /* Baby Pink Background */
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  color: #555; /* Dark Gray Text Color */
+}
+
+/* Style the header */
+header {
+  background-color: #e880ac; /* Light Pink Header */
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 2em;
+}
+
+header h2 {
+  font-size: 1.2em;
+}
+
+/* Style the project section */
+.project {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+/* Style each project box */
+.website {
+  background-color: #fff; /* White Project Box */
+  border: 1px solid #e880ac; /* Light Pink Border */
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 10px;
+  width: 30%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.website:hover {
+  transform: scale(1.05);
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+/* Style the footer */
+footer {
+  background-color: #e880ac; /* Light Pink Footer */
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Add responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+  .project {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .website {
+    width: 80%;
+  }
+}
